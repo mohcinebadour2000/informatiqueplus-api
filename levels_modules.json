@@ -1,0 +1,40 @@
+{
+  "levels": [
+    {
+      "name": "Niveau",
+      "modules": []
+    },
+    {
+      "name": "1er Année collégiale",
+      "modules": [
+        "Module 1 de 1er annee college",
+        "Module 2 de 1er annee college",
+        "Module 3 de 1er annee college"
+      ]
+    },
+    {
+      "name": "2ème Année collégiale",
+      "modules": [
+        "Module 1 de 2ème annee college",
+        "Module 2 de 2ème annee college",
+        "Module 3 de 2ème annee college"
+      ]
+    },
+    {
+      "name": "3ème Année collégiale",
+      "modules": [
+        "Module 1 de 3ème annee college",
+        "Module 2 de 3ème annee college",
+        "Module 3 de 3ème annee college"
+      ]
+    },
+    {
+      "name": "tronc commun",
+      "modules": [
+        "Module 1 de Tronc commun",
+        "Module 2 de Tronc commun",
+        "Module 3 de Tronc commun"
+      ]
+    }
+  ]
+}
