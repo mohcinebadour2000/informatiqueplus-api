@@ -12,7 +12,7 @@
         "questions": [
             {
                 "question": "What is the time complexity of bubble sort in the average case?",
-                "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+                "options": ["correctAnswer", "O(n log n)", "O(n^2)", "O(log n)"],
                 "correct_answer": "correctAnswer"
             },
             {
