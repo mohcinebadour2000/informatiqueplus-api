@@ -1,37 +1,127 @@
 [
     {
-        "id": "science001",
-        "image": "science_image.png",
-        "title": "Science Quiz",
-        "date": "2024-06-01",
-        "duration": "30 min",
+        "id": "informatique001",
+        "image": "info_image.png",
+        "title": "Informatique Quiz",
+        "date": "2024-06-03",
+        "duration": "25 min",
         "status": "active",
-        "niveau": "Beginner",
-        "module": "Physics",
-        "sequence": "1",
+        "niveau": "Advanced",
+        "module": "Algorithms and Data Structures",
+        "sequence": "3",
         "questions": [
             {
-                "question": "What is the speed of light?",
-                "options": ["299,792,458 m/s", "150,000,000 m/s", "384,400 km/s"],
-                "correct_answer": "299,792,458 m/s"
+                "question": "What is the time complexity of bubble sort in the average case?",
+                "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+                "correct_answer": "O(n^2)"
+            },
+            {
+                "question": "Which data structure is used to implement a priority queue?",
+                "options": ["Array", "Linked List", "Heap", "Stack"],
+                "correct_answer": "Heap"
+            },
+            {
+                "question": "What is a characteristic of a depth-first search algorithm?",
+                "options": ["Explores all neighbors before moving to the next level", "Uses a queue", "Can be implemented using recursion", "Always finds the shortest path"],
+                "correct_answer": "Can be implemented using recursion"
+            },
+            {
+                "question": "Which of the following algorithms is used to find the shortest path in a weighted graph?",
+                "options": ["Kruskal's algorithm", "Depth-first search", "Dijkstra's algorithm", "Prim's algorithm"],
+                "correct_answer": "Dijkstra's algorithm"
+            },
+            {
+                "question": "In the context of algorithm design, what does 'divide and conquer' refer to?",
+                "options": ["Splitting a problem into smaller subproblems, solving them independently, and combining their solutions", "Using a brute force approach to solve a problem", "Solving a problem using dynamic programming", "Incrementally building a solution by adding new elements"],
+                "correct_answer": "Splitting a problem into smaller subproblems, solving them independently, and combining their solutions"
+            },
+            {
+                "question": "What is the best-case time complexity of quicksort?",
+                "options": ["O(n log n)", "O(n^2)", "O(log n)", "O(n)"],
+                "correct_answer": "O(n log n)"
+            },
+            {
+                "question": "Which sorting algorithm is stable and works in O(n log n) time in the average case?",
+                "options": ["Merge sort", "Quick sort", "Heap sort", "Bubble sort"],
+                "correct_answer": "Merge sort"
+            },
+            {
+                "question": "What is the primary advantage of using a hash table over an array for storing a set of keys?",
+                "options": ["Lower memory usage", "Faster lookup times", "Simpler implementation", "Better handling of duplicate keys"],
+                "correct_answer": "Faster lookup times"
+            },
+            {
+                "question": "In a binary search tree, what is the time complexity of finding the minimum element?",
+                "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+                "correct_answer": "O(log n)"
+            },
+            {
+                "question": "Which of the following is an example of a greedy algorithm?",
+                "options": ["Merge sort", "Binary search", "Dijkstra's algorithm", "Dynamic programming"],
+                "correct_answer": "Dijkstra's algorithm"
             }
         ]
     },
     {
-        "id": "comp001",
-        "image": "comp_image.png",
-        "title": "Computer Science Quiz",
-        "date": "2024-06-02",
-        "duration": "20 min",
+        "id": "sciencesdevie001",
+        "image": "life_science_image.png",
+        "title": "Sciences de la Vie Quiz",
+        "date": "2024-06-04",
+        "duration": "30 min",
         "status": "active",
         "niveau": "Intermediate",
-        "module": "Algorithms",
-        "sequence": "2",
+        "module": "Biology",
+        "sequence": "4",
         "questions": [
             {
-                "question": "What is the time complexity of binary search?",
-                "options": ["O(n)", "O(log n)", "O(n^2)"],
-                "correct_answer": "O(log n)"
+                "question": "What is the powerhouse of the cell?",
+                "options": ["Nucleus", "Ribosome", "Mitochondrion", "Endoplasmic Reticulum"],
+                "correct_answer": "Mitochondrion"
+            },
+            {
+                "question": "Which molecule carries genetic information?",
+                "options": ["Protein", "Lipid", "DNA", "Carbohydrate"],
+                "correct_answer": "DNA"
+            },
+            {
+                "question": "What process do plants use to convert sunlight into energy?",
+                "options": ["Respiration", "Photosynthesis", "Fermentation", "Digestion"],
+                "correct_answer": "Photosynthesis"
+            },
+            {
+                "question": "Which part of the brain controls balance and coordination?",
+                "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+                "correct_answer": "Cerebellum"
+            },
+            {
+                "question": "What type of macromolecule are enzymes?",
+                "options": ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+                "correct_answer": "Proteins"
+            },
+            {
+                "question": "What is the basic unit of life?",
+                "options": ["Atom", "Molecule", "Cell", "Organ"],
+                "correct_answer": "Cell"
+            },
+            {
+                "question": "Which system in the human body is responsible for transporting blood?",
+                "options": ["Respiratory system", "Digestive system", "Circulatory system", "Nervous system"],
+                "correct_answer": "Circulatory system"
+            },
+            {
+                "question": "What is the function of red blood cells?",
+                "options": ["Fight infection", "Carry oxygen", "Clot blood", "Transmit nerve signals"],
+                "correct_answer": "Carry oxygen"
+            },
+            {
+                "question": "Which kingdom do mushrooms belong to?",
+                "options": ["Plantae", "Animalia", "Fungi", "Protista"],
+                "correct_answer": "Fungi"
+            },
+            {
+                "question": "What term describes the variety of life in a particular habitat or ecosystem?",
+                "options": ["Ecology", "Biodiversity", "Evolution", "Biomagnification"],
+                "correct_answer": "Biodiversity"
             }
         ]
     }
