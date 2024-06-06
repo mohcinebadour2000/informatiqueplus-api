@@ -13,7 +13,7 @@
             {
                 "question": "What is the time complexity of bubble sort in the average case?",
                 "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
-                "correct_answer": "O(n^2)"
+                "correct_answer": "correctAnswer"
             },
             {
                 "question": "Which data structure is used to implement a priority queue?",
