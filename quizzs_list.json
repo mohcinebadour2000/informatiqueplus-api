@@ -1,103 +1,38 @@
-{
-  "quizzes": [
+[
     {
-      "id": "quiz1",
-      "image": "https://example.com/science.jpg",
-      "title": "Sciences Générales",
-      "date": "2024-06-06",
-      "duration": "30 minutes",
-      "status": "active",
-      "niveau": "Débutant",
-      "module": "Physique-Chimie",
-      "sequence": "Séquence 1",
-      "questions": [
-        {
-          "question": "Quelle est la formule chimique de l'eau ?",
-          "options": [
-            "CO2",
-            "H2O",
-            "O2",
-            "H2O2"
-          ],
-          "correct_answer": "H2O"
-        },
-        {
-          "question": "Quelle est la planète la plus proche du soleil ?",
-          "options": [
-            "Terre",
-            "Vénus",
-            "Mars",
-            "Mercure"
-          ],
-          "correct_answer": "Mercure"
-        }
-      ]
+        "id": "science001",
+        "image": "science_image.png",
+        "title": "Science Quiz",
+        "date": "2024-06-01",
+        "duration": "30 min",
+        "status": "active",
+        "niveau": "Beginner",
+        "module": "Physics",
+        "sequence": "1",
+        "questions": [
+            {
+                "question": "What is the speed of light?",
+                "options": ["299,792,458 m/s", "150,000,000 m/s", "384,400 km/s"],
+                "correct_answer": "299,792,458 m/s"
+            }
+        ]
     },
     {
-      "id": "quiz2",
-      "image": "https://example.com/informatique.jpg",
-      "title": "Informatique",
-      "date": "2024-06-07",
-      "duration": "20 minutes",
-      "status": "active",
-      "niveau": "Intermédiaire",
-      "module": "Programmation",
-      "sequence": "Séquence 2",
-      "questions": [
-        {
-          "question": "Quel est le langage de programmation le plus utilisé en 2024 ?",
-          "options": [
-            "Python",
-            "JavaScript",
-            "C++",
-            "Java"
-          ],
-          "correct_answer": "Python"
-        },
-        {
-          "question": "Quelle est la complexité temporelle de la recherche binaire ?",
-          "options": [
-            "O(n)",
-            "O(log n)",
-            "O(n log n)",
-            "O(n^2)"
-          ],
-          "correct_answer": "O(log n)"
-        }
-      ]
-    },
-    {
-      "id": "quiz3",
-      "image": "https://example.com/mathematics.jpg",
-      "title": "Mathématiques",
-      "date": "2024-06-08",
-      "duration": "25 minutes",
-      "status": "inactive",
-      "niveau": "Avancé",
-      "module": "Calcul différentiel",
-      "sequence": "Séquence 3",
-      "questions": [
-        {
-          "question": "Quelle est la dérivée de x^2 ?",
-          "options": [
-            "2x",
-            "x",
-            "x^2",
-            "2"
-          ],
-          "correct_answer": "2x"
-        },
-        {
-          "question": "Quelle est la solution de l'équation x^2 - 4 = 0 ?",
-          "options": [
-            "x = 2",
-            "x = -2",
-            "x = 2 et x = -2",
-            "x = 0"
-          ],
-          "correct_answer": "x = 2 et x = -2"
-        }
-      ]
+        "id": "comp001",
+        "image": "comp_image.png",
+        "title": "Computer Science Quiz",
+        "date": "2024-06-02",
+        "duration": "20 min",
+        "status": "active",
+        "niveau": "Intermediate",
+        "module": "Algorithms",
+        "sequence": "2",
+        "questions": [
+            {
+                "question": "What is the time complexity of binary search?",
+                "options": ["O(n)", "O(log n)", "O(n^2)"],
+                "correct_answer": "O(log n)"
+            }
+        ]
     }
-  ]
-}
+]
